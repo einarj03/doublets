@@ -6,3 +6,6 @@ doublets.o: doublets.cpp doublets.h
 
 main.o: main.cpp doublets.h
 	g++ -Wall -c main.cpp -O3
+
+clean:
+	rm -rf doublets *.o
